@@ -8,9 +8,8 @@ def persistence(n):
             total *= int(num)
         count += 1
         n = total
-        print(f'Our new num is {n}')
     return count
 
 
 
-print(persistence(127))
+print(f'Out final answer is {persistence(127)}') #expected 2
